@@ -1,0 +1,63 @@
+body{
+text-align:center;
+background:lightblue;
+background-repeat:no-repeat;
+}
+
+.profile {
+ border-radius: 50%; 
+ height:250px;
+  width:250px
+} 
+
+hr{
+width:100px;
+border:2px solid black;
+}
+
+#name{
+ font-family: 'Satisfy', cursive;
+ font-size: 27px;
+}
+
+
+p{
+font-size:18px;
+}
+
+#welcome { 
+ background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+  }
+
+#about { 
+font-family: 'Cinzel Decorative', cursive; 
+padding: 50px; 
+text-align: center;
+}
+
+
+
+.menu {
+ position:fixed;
+ background-color:white;
+ width:100%;
+ margin-top:10px;
+ top:0px;
+ z-index:10; 
+}
+
+.link{
+ float: left;
+ color: black;
+ padding-top: 5px;
+ padding-left: 9px;
+ padding-right: 9px;
+ padding-bottom: 5px;
+ font-family: cursive;
+ font-size: 17px;
+}
+
+.link:hover{
+ background-color: darkcyan;
+}
+
